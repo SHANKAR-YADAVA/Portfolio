@@ -6,7 +6,7 @@ This is my **personal portfolio website**, built to showcase my projects, skills
 
 ##  Live Website
 
-🔗 [View My Portfolio](https://portfolio-iota-six-51.vercel.app/)
+🔗 [View My Portfolio](https://portfolio-omega-pink-95.vercel.app/)
 
 ---
 
