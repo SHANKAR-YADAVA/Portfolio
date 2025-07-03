@@ -2,6 +2,7 @@ import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
 import toast from "react-hot-toast";
+import { FaGithub, FaLinkedin, FaPhone, FaEnvelope } from "react-icons/fa";
 
 export const Contact = () => {
   const [formData, setFormData] = useState({
@@ -37,7 +38,7 @@ export const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen flex items-center justify-center py-20"
+      className="min-h-screen flex flex-col items-center justify-center py-20"
     >
       <RevealOnScroll>
         <div className="px-4 w-full min-w-[300px] md:w-[500px] sm:w-2/3 p-6">
@@ -48,7 +49,7 @@ export const Contact = () => {
             <input
               type="text"
               id="name"
-              name="from_name" 
+              name="from_name"
               required
               value={formData.name}
               className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
@@ -127,6 +128,38 @@ export const Contact = () => {
           </form>
         </div>
       </RevealOnScroll>
+
+      {/* FOOTER */}
+      <footer className="mt-16 text-center text-sm text-gray-400">
+  <div className="flex justify-center gap-6">
+    <a
+      href="mailto:shankaryadavar2004@gmail.com"
+      className="text-blue-400 hover:text-blue-500"
+    >
+      <FaEnvelope size={20} />
+    </a>
+    <a
+      href="https://github.com/SHANKAR-YADAVA"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-400 hover:text-blue-500"
+    >
+      <FaGithub size={20} />
+    </a>
+    <a
+      href="https://www.linkedin.com/in/shankar-yadava-7354642a8/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-400 hover:text-blue-500"
+    >
+      <FaLinkedin size={20} />
+    </a>
+  </div>
+  <p className="mt-4 text-xs text-gray-500">
+    © {new Date().getFullYear()} Shankar Yadava. All rights reserved.
+  </p>
+</footer>
+
     </section>
   );
 };
