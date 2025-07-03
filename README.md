@@ -1,12 +1,70 @@
-# React + Vite
+#  Personal Portfolio – SHANKAR-YADAVA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my **personal portfolio website**, built to showcase my projects, skills, resume, and other professional work. It reflects both my technical strengths and creative thinking.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Live Website
 
-## Expanding the ESLint configuration
+🔗 [View My Portfolio](https://portfolio-iota-six-51.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Features
+
+-  Introduction & About Me
+-  Skills & Technologies
+-  Project Showcase with live demos and GitHub links
+-  Contact Form / Social Links
+-  Fully Responsive Design
+
+---
+
+##  Tech Stack
+
+- **Framework:** React
+- **Styling:** Tailwind CSS
+- **Deployment:** Vercel
+
+---
+
+## 🚀 Getting Started
+
+To run this portfolio locally:
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/portfolio.git
+```
+Navigate into the folder
+```bash
+cd portfolio
+```
+ Install dependencies
+```bash
+npm install
+```
+Start the development server
+```bash
+npm run dev
+```
+
+## Contact
+Let’s connect!
+
+- Email: shankaryadavar2004@gmail.com
+
+ - LinkedIn: https://www.linkedin.com/in/shankar-yadava-7354642a8/
+
+ - GitHub: https://github.com/SHANKAR-YADAVA
+
+
+
+## License
+MIT 
+
+
+
+
+
+
