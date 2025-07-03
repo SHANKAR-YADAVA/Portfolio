@@ -17,6 +17,7 @@ This is my **personal portfolio website**, built to showcase my projects, skills
 -  Project Showcase with live demos and GitHub links
 -  Contact Form / Social Links
 -  Fully Responsive Design
+-  Using EmailJs email can be forwarded
 
 ---
 
